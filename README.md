@@ -1,2 +1,2 @@
-# ZVWA
-ZVWA is a badly coded web application written in PHP/MySQL that helps security enthusiasts to learn application security.
+# Vuln App
+Vulnrable application to practice on why vulnrabilites happens in the backend and what is the secure code for it.
