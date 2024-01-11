@@ -24,25 +24,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/auth-php/index.php">Home </span></a>
+                    <a class="nav-link" href="/vuln-app/index.php">Home </span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/auth-php/profile.php">Profile</a>
+                    <a class="nav-link" href="/vuln-app/profile.php">Profile</a>
                 </li>
 
                 <?php if(!isset($_SESSION['user_name'])): ?> 
                 <li class="nav-item">
-                    <a class="nav-link" href="/auth-php/login.php">Login</a>
+                    <a class="nav-link" href="/vuln-app/login.php">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/auth-php/register.php">Register</a>
+                    <a class="nav-link" href="/vuln-app/register.php">Register</a>
                 </li>
                 <?php else: ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="/auth-php/logout.php">Logout</a>
+                    <a class="nav-link" href="/vuln-app/logout.php">Logout</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/auth-php/labs/labs.php">Labs</a>
+                    <a class="nav-link" href="/vuln-app/labs/labs.php">Labs</a>
                 </li>
                 <?php endif; ?>
             </ul>
